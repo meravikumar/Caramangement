@@ -1,0 +1,34 @@
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Business\bin\Debug\net8.0\CarManagement.Business.deps.json
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Business\bin\Debug\net8.0\CarManagement.Business.dll
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Business\bin\Debug\net8.0\CarManagement.Business.pdb
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Business\bin\Debug\net8.0\CarManagement.Core.dll
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Business\bin\Debug\net8.0\CarManagement.Data.dll
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Business\bin\Debug\net8.0\CarManagement.Core.pdb
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Business\bin\Debug\net8.0\CarManagement.Data.pdb
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Business\obj\Debug\net8.0\CarManagement.Business.csproj.AssemblyReference.cache
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Business\obj\Debug\net8.0\CarManagement.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Business\obj\Debug\net8.0\CarManagement.Business.AssemblyInfoInputs.cache
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Business\obj\Debug\net8.0\CarManagement.Business.AssemblyInfo.cs
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Business\obj\Debug\net8.0\CarManagement.Business.csproj.CoreCompileInputs.cache
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Business\obj\Debug\net8.0\CarManag.32D0B274.Up2Date
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Business\obj\Debug\net8.0\CarManagement.Business.dll
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Business\obj\Debug\net8.0\refint\CarManagement.Business.dll
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Business\obj\Debug\net8.0\CarManagement.Business.pdb
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Business\obj\Debug\net8.0\ref\CarManagement.Business.dll
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Business\bin\Debug\net8.0\CarManagement.Business.deps.json
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Business\bin\Debug\net8.0\CarManagement.Business.dll
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Business\bin\Debug\net8.0\CarManagement.Business.pdb
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Business\bin\Debug\net8.0\CarManagement.Core.dll
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Business\bin\Debug\net8.0\CarManagement.Data.dll
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Business\bin\Debug\net8.0\CarManagement.Core.pdb
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Business\bin\Debug\net8.0\CarManagement.Data.pdb
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Business\obj\Debug\net8.0\CarManagement.Business.csproj.AssemblyReference.cache
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Business\obj\Debug\net8.0\CarManagement.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Business\obj\Debug\net8.0\CarManagement.Business.AssemblyInfoInputs.cache
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Business\obj\Debug\net8.0\CarManagement.Business.AssemblyInfo.cs
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Business\obj\Debug\net8.0\CarManagement.Business.csproj.CoreCompileInputs.cache
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Business\obj\Debug\net8.0\CarManag.32D0B274.Up2Date
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Business\obj\Debug\net8.0\CarManagement.Business.dll
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Business\obj\Debug\net8.0\refint\CarManagement.Business.dll
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Business\obj\Debug\net8.0\CarManagement.Business.pdb
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Business\obj\Debug\net8.0\ref\CarManagement.Business.dll

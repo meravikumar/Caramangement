@@ -1,0 +1,28 @@
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Data\bin\Debug\net8.0\CarManagement.Data.deps.json
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Data\bin\Debug\net8.0\CarManagement.Data.runtimeconfig.json
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Data\bin\Debug\net8.0\CarManagement.Data.dll
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Data\bin\Debug\net8.0\CarManagement.Data.pdb
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Data\obj\Debug\net8.0\CarManagement.Data.csproj.AssemblyReference.cache
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Data\obj\Debug\net8.0\CarManagement.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Data\obj\Debug\net8.0\CarManagement.Data.AssemblyInfoInputs.cache
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Data\obj\Debug\net8.0\CarManagement.Data.AssemblyInfo.cs
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Data\obj\Debug\net8.0\CarManagement.Data.csproj.CoreCompileInputs.cache
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Data\obj\Debug\net8.0\CarManagement.Data.dll
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Data\obj\Debug\net8.0\refint\CarManagement.Data.dll
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Data\obj\Debug\net8.0\CarManagement.Data.pdb
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Data\obj\Debug\net8.0\CarManagement.Data.genruntimeconfig.cache
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Data\obj\Debug\net8.0\ref\CarManagement.Data.dll
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Data\bin\Debug\net8.0\CarManagement.Data.deps.json
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Data\bin\Debug\net8.0\CarManagement.Data.runtimeconfig.json
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Data\bin\Debug\net8.0\CarManagement.Data.dll
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Data\bin\Debug\net8.0\CarManagement.Data.pdb
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Data\obj\Debug\net8.0\CarManagement.Data.csproj.AssemblyReference.cache
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Data\obj\Debug\net8.0\CarManagement.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Data\obj\Debug\net8.0\CarManagement.Data.AssemblyInfoInputs.cache
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Data\obj\Debug\net8.0\CarManagement.Data.AssemblyInfo.cs
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Data\obj\Debug\net8.0\CarManagement.Data.csproj.CoreCompileInputs.cache
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Data\obj\Debug\net8.0\CarManagement.Data.dll
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Data\obj\Debug\net8.0\refint\CarManagement.Data.dll
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Data\obj\Debug\net8.0\CarManagement.Data.pdb
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Data\obj\Debug\net8.0\CarManagement.Data.genruntimeconfig.cache
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Data\obj\Debug\net8.0\ref\CarManagement.Data.dll

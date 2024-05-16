@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "CarManagement.Web\\CarManagement.Web.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "CarManagement.API\\CarManagement.API.csproj",
+        "Action": "Start",
+        "DebugTarget": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,444 @@
+﻿@model List<CarManagement.Core.ViewModels.Companies.CreateCompanyVM>
+<section class="main">
+
+	<div id="drawerAddEditProject" class="drawer">
+
+		<div class="overlay" style="display: none;">
+		</div>
+
+		<div class="drawer-inner">
+
+			<div class="drawer-title">
+				<a title="back" onclick="Common.closeDrawer('#drawerAddEditProject')">
+					<i class="nt-angle-prev"></i>
+				</a>
+				<h1 id="AddEdit-Title">
+					Add Company
+				</h1>
+			</div>
+
+			<form class="drawer-form">
+
+				<div class="row">
+
+					<div class="form-title">
+						Please provide following information about Company.
+					</div>
+
+					<div class="col-lg-6 form-floating">
+						<input id="txtCompanyName" type="text" class="form-control" placeholder="" value=""
+							   required>
+						<label for="txtCompanyName" class="form-label">
+							<span class="red">*</span>
+							Company Name
+						</label>
+					</div>
+
+					<div class="col-lg-6 form-floating">
+						<input id="txtEstablishedDate" type="text" class="form-control" placeholder="" value=""
+							   required>
+						<label for="EstablishedDate" class="form-label">
+							<span class="red">*</span>
+							Established Date
+						</label>
+					</div>
+
+					<div class="col-lg-6 form-floating">
+						<input id="txtCEO" type="text" translate="no" class="form-control" placeholder="" value=""
+							   required>
+						<label for="CEO" class="form-label">
+							<span class="red">*</span>
+							CEO
+						</label>
+					</div>
+
+					<div class="col-lg-6 form-floating">
+						<input id="txtLocation" type="text" class="form-control" placeholder="" value="">
+						<label for="Location" class="form-label">
+							<span class="red">*</span>
+							Location
+						</label>
+					</div>
+
+					<div class="col-lg-6 form-floating">
+						<select id="txtselectFinanceStatus" class="form-control select2" placeholder>
+							<option value="1">Yes</option>
+							<option value="2">No</option>
+						</select>
+						<label for="selectProjectStatus" class="form-label">
+							<span class="red">*</span>
+							Is Finance Provider
+						</label>
+					</div>
+
+				</div>
+
+				<div class="invite-botttom">
+
+					<a class="cancel" onclick="Common.closeDrawer('#drawerAddEditProject')">
+						<i class="nt-backward"></i>
+						Cancel
+					</a>
+
+					<h1 id="Add-Update-Message">
+					</h1>
+
+					<div class="invite">
+						<button id="btnSaveUser" type="button" class="btn-invite" onclick="Common.OnSave()">
+							Save
+						</button>
+					</div>
+
+				</div>
+
+			</form>
+
+		</div>
+
+	</div>
+
+	<div id="drawerViewProject" class="drawer">
+
+		<div class="overlay" style="display: none;">
+		</div>
+
+		<div class="drawer-inner">
+
+			<div class="drawer-title">
+				<a title="back" onclick="Common.closeDrawer('#drawerViewProject')">
+					<i class="nt-angle-prev"></i>
+				</a>
+				<h1 id="View-Header-CompanyName">
+					Project ABC
+				</h1>
+			</div>
+
+			<form class="drawer-form view-drawer">
+
+				<div class="row">
+
+					<div class="form-title">
+						Company Details
+					</div>
+
+					<div class="col-lg-6 data-detail">
+						<div class="data-label">
+							EstablishedDate
+						</div>
+						<div class="data-val" id="View-EstablishedDate">
+							Project ABC
+						</div>
+					</div>
+
+					<div class="col-lg-6 data-detail">
+						<div class="data-label">
+							CEO
+						</div>
+						<div class="data-val" id="View-CEO">
+							ANZ001
+						</div>
+					</div>
+
+					<div class="col-lg-6 data-detail">
+						<div class="data-label">
+							Location
+						</div>
+						<div class="data-val" id="View-Location">
+							Abc Inc.
+						</div>
+					</div>
+
+					<div class="col-lg-6 data-detail">
+						<div class="data-label">
+							IsFinanceProvider
+						</div>
+						<div class="data-val" id="View-IsFinanceProvider">
+							Xyz Inc.
+						</div>
+					</div>
+
+					<div class="col-lg-6 data-detail">
+						<div class="data-label">
+							Cars
+						</div>
+						<div class="data-val" id="View-Car">
+							Active
+						</div>
+					</div>
+
+				</div>
+
+				<div class="invite-botttom">
+
+					<a class="cancel" onclick="Common.closeDrawer('#drawerViewProject')">
+						<i class="nt-backward"></i>
+						Cancel
+					</a>
+
+				</div>
+
+			</form>
+
+		</div>
+
+	</div>
+
+	<div class="container">
+
+		<div class="alerts-main">
+
+			<div class="alerts-title">
+
+				<h1>
+					Company (@Model.Count)
+				</h1>
+
+				<div class="alerts-icon">
+
+					<ul>
+
+						<li>
+							<div class="icon">
+
+								<i class="nt-filter" title="Filter"
+								   onclick="Common.showFilter(this, '#divFilters')">
+								</i>
+
+								<div id="divFilters" class="filter-sorting">
+
+									<div class="filter-sorting-title">
+										<p>
+											Filters
+										</p>
+										<a title="close" class="close" onclick="Common.hideFilter('#divFilters')">
+											<span class="nt-close-o"></span>
+										</a>
+									</div>
+
+									<form class="mt-3">
+
+										<div class="row">
+
+											<div class="col-lg-12 form-floating">
+												<input id="txtFilterProjectName" type="text" class="form-control"
+													   placeholder="" value="">
+												<label for="txtFilterProjectName">
+													Project Name
+												</label>
+											</div>
+
+											<div class="col-lg-12 form-floating">
+												<input id="txtFilterProjectCode" type="text" class="form-control"
+													   placeholder="" value="">
+												<label for="txtFilterProjectCode">
+													Project Code
+												</label>
+											</div>
+
+										</div>
+
+									</form>
+
+									<div class="apply-botttom">
+
+										<a class="cancel">
+											<span class="nt-refresh"></span>
+											Reset
+										</a>
+
+										<a class="btn-apply">
+											Apply Filter
+										</a>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</li>
+
+						<li>
+							<div class="icon">
+
+								<i class="nt-sort" title="Sort" onclick="Common.showFilter(this, '#divSorting')">
+								</i>
+
+								<div id="divSorting" class="filter-sorting">
+
+									<div class="filter-sorting-title">
+										<p>
+											Sort by
+										</p>
+										<a title="close" class="close" onclick="Common.hideFilter('#divSorting')">
+											<span class="nt-close-o"></span>
+										</a>
+									</div>
+
+									<div class="form-tabs">
+
+										<ul class="ass-des">
+											<li class="active">
+												Ascending
+											</li>
+											<li>
+												Desending
+											</li>
+										</ul>
+
+										<div class="form-check mb-3">
+											<input id="rbProjectName" class="form-check-input" type="radio"
+												   name="sortListing">
+											<label class="form-check-label" for="rbProjectName">
+												Project Name
+											</label>
+										</div>
+
+										<div class="form-check mb-5">
+											<input id="rbProjectCode" class="form-check-input" type="radio"
+												   name="sortListing">
+											<label class="form-check-label" for="rbProjectCode">
+												Project Code
+											</label>
+										</div>
+
+									</div>
+
+
+									<div class="apply-botttom">
+										<a class="cancel">
+											<span class="nt-refresh"></span>
+											Reset
+										</a>
+										<a title="invite" class="btn-apply">
+											Apply Sort
+										</a>
+									</div>
+
+								</div>
+								</a>
+
+						</li>
+
+						<li class="invite">
+							<a title="invite" class="btn-invite"
+							   onclick="Common.openDrawer('#drawerAddEditProject','Add','-1')">
+								Add User
+							</a>
+						</li>
+
+					</ul>
+
+				</div>
+
+			</div>
+
+			<div class="alerts-content">
+
+
+
+				@foreach (var item in Model)
+				{
+					<div class="alerts-content-single" data-companyid="@item.CompanyId">
+
+						<div class="alerts-content-inner">
+							<div class="content-main">
+								<div class="content-title">
+									<span>@Html.DisplayFor(modelItem => item.CompanyName)</span><em class="nt-edit edit-name-btn" onclick="Common.ShowEditOption(this)"></em>
+									<div class="edit-name">
+										<div class="edit-box">
+											<input type="text" class="name-input">
+											<button class="secondary-btn" type="button" onclick="Common.CloseEditOption(this)">Cancel</button>
+											<button class="btn-invite" type="button">Save</button>
+										</div>
+									</div>
+								</div>
+								<div class="content-desc">
+									@Html.DisplayFor(modelItem => item.EstablishedDate)
+								</div>
+							</div>
+						</div>
+
+						<div class="alerts-content-inner">
+							<div class="content-main">
+								<div class="content-desc">
+									@Html.DisplayFor(modelItem => item.CEO)
+								</div>
+							</div>
+						</div>
+
+						<div class="alerts-content-inner">
+							<div class="content-main">
+								<div class="content-desc">
+									@Html.DisplayFor(modelItem => item.Location)
+								</div>
+							</div>
+						</div>
+
+						<div class="alerts-content-inner">
+							<div class="content-main">
+								<div class="content-last">
+
+									<span class="closed btn-all-case @((item.IsFinanceProvider ? "green" : "red"))">
+										<i class="nt-tick"></i>
+										<span class="alert-text">
+											@item.IsFinanceProvider
+										</span>
+									</span>
+
+									<div class="edit-links">
+										<em class="nt-more"></em>
+										<div class="link-box">
+											<div class="link" onclick="Common.openDrawer('#drawerViewProject','View','@item.CompanyId')">
+												<em class="nt-eye"></em>
+												View
+											</div>
+											<div class="link" onclick="Common.openDrawer('#drawerAddEditProject','Edit','@item.CompanyId')">
+												<em class="nt-edit"></em>
+												Edit
+											</div>
+											<div class="link" onclick="Common.DeleteUser('@item.CompanyId')">
+												<em class="nt-bin"></em>
+												Delete
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+				}
+
+
+			</div>
+
+			<div class="load-more-btn">
+				<button id="divLoadMore" title="Load More" class="btn-invite">
+					Load More
+				</button>
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
+
+<div class="loading-wrapper">
+	<div class="loading-content">
+	</div>
+	<div class="loading-text position-absolute">
+		Loading...
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="~/js/Com.js"></script>
+
+
+@section scripts {
+	<script type="text/javascript" src="~/js/Com.js"></script>
+}

@@ -1,0 +1,89 @@
+﻿<div class="overlay" style="display: none;">
+</div>
+
+<div class="drawer-inner">
+
+    <div class="drawer-title">
+        <a title="back" onclick="Common.closeDrawer('#projectPartialViewContainer')">
+            <i class="nt-angle-prev"></i>
+        </a>
+        <h1>
+            Add Company
+        </h1>
+    </div>
+
+    <form id="addCompanyForm" class="drawer-form" action="/Company/AddProjectPartialView" method="post">
+
+        <div class="row">
+
+            <div class="form-title">
+                Please provide following information about Company
+            </div>
+
+            <div class="col-lg-6 form-floating">
+                <input id="txtProjectName" type="text" class="form-control" placeholder="" value=""
+                       required>
+                <label for="txtProjectName" class="form-label">
+                    <span class="red">*</span>
+                    Company Name
+                </label>
+            </div>
+
+            <div class="col-lg-6 form-floating">
+                <input id="txtProjectCode" type="text" class="form-control" placeholder="" value=""
+                       required>
+                <label for="txtProjectCode" class="form-label">
+                    <span class="red">*</span>
+                    Establish Date
+                </label>
+            </div>
+
+            <div class="col-lg-6 form-floating">
+                <input id="txtSponsorName" type="text" class="form-control" placeholder="" value=""
+                       required>
+                <label for="txtSponsorName" class="form-label">
+                    <span class="red">*</span>
+                   Location
+                </label>
+            </div>
+
+            <div class="col-lg-6 form-floating">
+                <input id="txtCompanyName" type="text" class="form-control" placeholder="" value=""
+                       required>
+                <label for="txtCompanyName" data-name="required" class="form-label">
+                    <span class="red">*</span>
+                    CEO
+                </label>
+            </div>
+
+            <div class="col-lg-6 form-floating">
+                <select id="selectProjectStatus" class="form-control select2" placeholder>
+                    <option value="">Please select</option>
+                    <option value="1">True</option>
+                    <option value="2">False</option>
+                </select>
+                <label for="selectProjectStatus" class="form-label">
+                    <span class="red">*</span>
+                    IsFinanaceProvider
+                </label>
+            </div>
+
+        </div>
+
+        <div class="invite-botttom">
+
+            <a class="cancel" onclick="Common.closeDrawer('#drawerAddEditProject')">
+                <i class="nt-backward"></i>
+                Cancel
+            </a>
+
+            <div class="invite">
+                <button id="btnSaveProject" type="button" class="btn-invite">
+                    Save
+                </button>
+            </div>
+
+        </div>
+
+    </form>
+

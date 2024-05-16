@@ -1,0 +1,30 @@
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Core\bin\Debug\net8.0\CarManagement.Core.deps.json
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Core\bin\Debug\net8.0\CarManagement.Core.dll
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Core\bin\Debug\net8.0\CarManagement.Core.pdb
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Core\obj\Debug\net8.0\CarManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Core\obj\Debug\net8.0\CarManagement.Core.AssemblyInfoInputs.cache
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Core\obj\Debug\net8.0\CarManagement.Core.AssemblyInfo.cs
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Core\obj\Debug\net8.0\CarManagement.Core.csproj.CoreCompileInputs.cache
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Core\obj\Debug\net8.0\CarManagement.Core.dll
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Core\obj\Debug\net8.0\refint\CarManagement.Core.dll
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Core\obj\Debug\net8.0\CarManagement.Core.pdb
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Core\obj\Debug\net8.0\ref\CarManagement.Core.dll
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Core\bin\Debug\net8.0\CarManagement.Data.dll
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Core\bin\Debug\net8.0\CarManagement.Data.pdb
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Core\obj\Debug\net8.0\CarManagement.Core.csproj.AssemblyReference.cache
+C:\Users\RaviKumar\source\repos\demo_practice\CarManagement\CarManagement.Core\obj\Debug\net8.0\CarManag.B4CB1668.Up2Date
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Core\bin\Debug\net8.0\CarManagement.Core.deps.json
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Core\bin\Debug\net8.0\CarManagement.Core.dll
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Core\bin\Debug\net8.0\CarManagement.Core.pdb
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Core\bin\Debug\net8.0\CarManagement.Data.dll
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Core\bin\Debug\net8.0\CarManagement.Data.pdb
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Core\obj\Debug\net8.0\CarManagement.Core.csproj.AssemblyReference.cache
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Core\obj\Debug\net8.0\CarManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Core\obj\Debug\net8.0\CarManagement.Core.AssemblyInfoInputs.cache
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Core\obj\Debug\net8.0\CarManagement.Core.AssemblyInfo.cs
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Core\obj\Debug\net8.0\CarManagement.Core.csproj.CoreCompileInputs.cache
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Core\obj\Debug\net8.0\CarManag.B4CB1668.Up2Date
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Core\obj\Debug\net8.0\CarManagement.Core.dll
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Core\obj\Debug\net8.0\refint\CarManagement.Core.dll
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Core\obj\Debug\net8.0\CarManagement.Core.pdb
+D:\Projects\CarManagement (v)\CarManagement\CarManagement.Core\obj\Debug\net8.0\ref\CarManagement.Core.dll

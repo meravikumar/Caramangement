@@ -1,0 +1,100 @@
+﻿@using CarManagement.Core.ViewModels.LoginToken
+@model CarManagement.Core.ViewModels.LoginToken.LoginViewModel
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body class="login-bg">
+    <section class="main-dev-for-all elementes-center position-relative">
+        <div class="containerc">
+            <div class="common-box box-style margin-auto position-relative after-po w-100">
+                <div class="uper-bx">
+
+                    <form id="frmLogin"
+                          method="post"
+                          class="form"
+                          autocomplete="off"
+                          novalidate="novalidate">
+
+                        <div id="divLoginForm"
+                             class="login-form margin-auto">
+
+                            <div class="typography-div">
+                                <div class="bx-main-title">
+                                    <h1>Welcome!</h1>
+                                </div>
+                            </div>
+
+                            <div class="form-floating position-relative">
+                                <input asp-for="Email" id="txtEmail"
+                                       translate="no"
+                                       class="form-control"
+                                       placeholder="Emial"
+                                       tabindex="1"
+                                       autofocus=""
+                                       type="text"
+                                       name="Email"
+                                       value="">
+                                <label asp-for="Email"  class="form-label position-absolute"
+                                       data-name="required"
+                                       for="txtEmail">
+                                
+                                </label>
+                            </div>
+
+                            <div class="form-floating position-relative">
+                                <input asp-for="Password" id="txtPassword"
+                                       translate="no"
+                                       type="password"
+                                       placeholder="Password"
+                                       class="form-control"
+                                       tabindex="2"
+                                       name="Password">
+                                <label asp-for="Password" class="form-label position-absolute"
+                                       for="txtPassword">
+                                    
+                                </label>
+                            </div>
+
+                            <div class="text-right">
+                                <div class="btn-group ">
+                                    <button id="btnLogin"
+                                            type="submit"
+                                            tabindex="3"
+                                            class="btn-invite">
+                                        <span>Login</span>&nbsp; &nbsp;
+                                        <span class="nt-arrow-right"></span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="loading-wrapper">
+        <div class="loading-content">
+        </div>
+        <div class="loading-text position-absolute">
+            Loading...
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

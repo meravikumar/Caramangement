@@ -1,0 +1,327 @@
+[
+  {
+    "ContainingType": "CarManagement.API.Controllers.AuthenticationController",
+    "Method": "Authentication",
+    "RelativePath": "api/Authentication",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginViewModel",
+        "Type": "CarManagement.Core.ViewModels.LoginToken.LoginViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarManagement.API.Controllers.CarController",
+    "Method": "GetAllCarAsync",
+    "RelativePath": "api/Car",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CarManagement.Core.ViewModels.Companies.CreateCompanyVM, CarManagement.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CarManagement.API.Controllers.CarController",
+    "Method": "CreateNewCar",
+    "RelativePath": "api/Car",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCarVM",
+        "Type": "CarManagement.Core.ViewModels.Cars.CreateCarVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarManagement.API.Controllers.CarController",
+    "Method": "GetCarById",
+    "RelativePath": "api/Car/{carId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "carId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarManagement.API.Controllers.CarController",
+    "Method": "UpdateCar",
+    "RelativePath": "api/Car/{carId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "carId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "carVM",
+        "Type": "CarManagement.Core.ViewModels.Cars.CreateCarVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarManagement.API.Controllers.CarController",
+    "Method": "DeleteCar",
+    "RelativePath": "api/Car/{carId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "carId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarManagement.API.Controllers.CarController",
+    "Method": "EditCompanyPatch",
+    "RelativePath": "api/Car/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "carPatch",
+        "Type": "Microsoft.AspNetCore.JsonPatch.JsonPatchDocument\u00601[[CarManagement.Data.Models.Car, CarManagement.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarManagement.API.Controllers.CardetailsController",
+    "Method": "GetAllCarAsync",
+    "RelativePath": "api/Cardetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CarManagement.Data.Models.CarDetails, CarManagement.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CarManagement.API.Controllers.CardetailsController",
+    "Method": "AddCarDetails",
+    "RelativePath": "api/Cardetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCarDetailVM",
+        "Type": "CarManagement.Core.ViewModels.CarDetails.CreateCarDetailVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarManagement.API.Controllers.CardetailsController",
+    "Method": "UpdateCarDetail",
+    "RelativePath": "api/Cardetails/{carDetailId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "carDetailId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "editCarDetailVM",
+        "Type": "CarManagement.Core.ViewModels.CarDetails.EditCarDetailVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarManagement.API.Controllers.CardetailsController",
+    "Method": "DeleteCardetail",
+    "RelativePath": "api/Cardetails/{carDetailId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "carDetailId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarManagement.API.Controllers.CardetailsController",
+    "Method": "GetCarDetailById",
+    "RelativePath": "api/Cardetails/{CarDetailId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CarDetailId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarManagement.API.Controllers.CompanyController",
+    "Method": "GetAll",
+    "RelativePath": "api/Company",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CarManagement.Core.ViewModels.Companies.CreateCompanyVM, CarManagement.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CarManagement.API.Controllers.CompanyController",
+    "Method": "EditCompanyPatch",
+    "RelativePath": "api/Company/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "companyPatch",
+        "Type": "Microsoft.AspNetCore.JsonPatch.JsonPatchDocument\u00601[[CarManagement.Data.Models.Company, CarManagement.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarManagement.API.Controllers.CompanyController",
+    "Method": "CreateCompany",
+    "RelativePath": "api/Company/AddCompany",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyVM",
+        "Type": "CarManagement.Core.ViewModels.Companies.CreateCompanyVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarManagement.API.Controllers.CompanyController",
+    "Method": "DeleteCompany",
+    "RelativePath": "api/Company/DeleteCompany/{companyId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarManagement.API.Controllers.CompanyController",
+    "Method": "GetCompany",
+    "RelativePath": "api/Company/GetCompany",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarManagement.API.Controllers.CompanyController",
+    "Method": "UpdateCompany",
+    "RelativePath": "api/Company/UpdateCompany/{companyId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "companyVM",
+        "Type": "CarManagement.Core.ViewModels.Companies.CreateCompanyVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
